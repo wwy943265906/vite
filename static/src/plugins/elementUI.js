@@ -1,0 +1,69 @@
+import Vue from 'vue';
+
+import { 
+    ElIcon,
+    ElButton,
+    ElSelect,
+    ElOption,
+    ElContainer,
+    ElAside,
+    ElHeader,
+    ElFooter,
+    ElMain,
+    ElMenu,
+    ElMenuItem,
+    ElDatePicker,
+    ElDivider,
+    ElTable,
+    ElTableColumn,
+    ElPagination,
+    ElLoading,
+    ElImage,
+    ElRadioGroup,
+    ElRadio,
+    ElInput,
+    ElBacktop,
+    ElRadioButton,
+    ElPopover,
+    ElTabs,
+    ElTabPane,
+    ElCard,
+    ElTree,
+    ElDialog,
+    ElCheckbox,
+    ElLink,
+    ElTag
+} from 'element-plus';
+
+Vue.use(ElIcon);
+Vue.use(ElButton);
+Vue.use(ElSelect);
+Vue.use(ElOption);
+Vue.use(ElContainer);
+Vue.use(ElAside);
+Vue.use(ElHeader);
+Vue.use(ElFooter);
+Vue.use(ElMain);
+Vue.use(ElMenu);
+Vue.use(ElMenuItem);
+Vue.use(ElDatePicker);
+Vue.use(ElDivider);
+Vue.use(ElTable);
+Vue.use(ElTableColumn);
+Vue.use(ElPagination);
+Vue.use(ElLoading);
+Vue.use(ElImage);
+Vue.use(ElRadioGroup);
+Vue.use(ElRadio);
+Vue.use(ElInput);
+Vue.use(ElBacktop);
+Vue.use(ElRadioButton);
+Vue.use(ElPopover);
+Vue.use(ElTabs);
+Vue.use(ElTabPane);
+Vue.use(ElCard);
+Vue.use(ElTree);
+Vue.use(ElDialog);
+Vue.use(ElCheckbox);
+Vue.use(ElLink);
+Vue.use(ElTag);

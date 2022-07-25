@@ -1,0 +1,27 @@
+{
+  "name": "static",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vite",
+    "dev:us": "vite --mode development",
+    "build": "cross-env NODE_ENV=production vite build",
+    "preview": "vite preview",
+    "build:dev": "vite build --mode develop",
+    "build:pre": "vite build --mode pre",
+    "build:produce": "vite build --mode produce",
+    "dev:develop": "vite --mode development",
+    "dev:production": "vite --mode production"
+  },
+  "dependencies": {
+    "@futuweb/snsbiz-comp": "^3.0.0",
+    "element-plus": "^2.2.9",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "cross-env": "^7.0.3",
+    "vite": "^3.0.0"
+  }
+}
